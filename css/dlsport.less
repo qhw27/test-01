@@ -1,0 +1,342 @@
+header .hdbox .right li:nth-of-type(3) a {
+    color: #1F9EE3 !important;
+}
+
+.headpic {
+    position: relative;
+    height: 595px;
+    background: url(http://tdin360.oss-cn-hongkong.aliyuncs.com/resources/tdzh/image/aboutUsBg.png);
+}
+
+.headpic .pitem1 {
+    color: #FFFFFF;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    animation: imgs 1s ease-out;
+}
+
+.headpic .pitem1 p {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.headpic .pitem1 span {
+    font-size: 14px;
+    display: inline-block;
+    line-height: 25px;
+    padding-bottom: 10px;
+    width: 200px;
+
+
+}
+
+.headpic .pitem1>div {
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #999;
+    font-size: 14px;
+
+}
+
+.headpic .img {
+    animation: imgs 1s ease-out;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    margin-top: 100px;
+}
+
+.headpic .img img {
+    width: 500px;
+    height: 465px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+@keyframes imgs {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+nav {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+nav .navm1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 240px;
+    overflow: hidden;
+    perspective: 1000px;
+}
+
+nav .navm1 p {
+    margin-bottom: 20px;
+}
+
+nav .navm1 div {
+    width: 30px;
+    height: 20px;
+    border-top: 1px solid #1F9EE3;
+}
+
+nav .navm1 img {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    bottom: -5px;
+    right: -5px;
+    opacity: 0.1;
+    transition: 0.5s;
+    transform: scale(1);
+    transform-style: preserve-3d;
+}
+
+nav .navm1:hover img {
+    transform: scale(1.5);
+}
+
+main .item1 {
+    box-sizing: border-box;
+    width: 100%;
+    height: 532px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    background-color: #F8FBFE;
+    box-shadow: 0px 0.5px 0.5px 0px #999;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: space-around;
+}
+
+main .item1 .left {
+    margin-left: 5%;
+    float: left;
+}
+
+main .item1 .left p {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+main .item1 .left .it1pic {
+    position: relative;
+    margin: 30px 0 0 100px;
+    width: 280px;
+    height: 280px;
+    text-align: right;
+    background: url(https://www.tdin360.com/img/computer.3acbdcee.png) no-repeat 10px -2px;
+    background-size: 264px;
+}
+
+main .item1 .left .it1pic img {
+    width: 165px;
+    position: absolute;
+    top: 10px;
+    right: 35px;
+    transition: all 0.3s;
+}
+
+main .item1 .left .it1pic:hover img {
+    transform: translate(-20px, 5px);
+}
+
+main .item1 .right {
+    float: right;
+    margin-top: 50px;
+    margin-right: 5%;
+}
+
+main .item1 .right p {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+main .item1 .right span {
+    display: inline-block;
+    width: 700px;
+    font-size: 14px;
+    line-height: 35px;
+}
+
+
+main .item2 {
+    .title {
+        font-size: 32px;
+        text-align: center;
+        margin-top: 48px;
+    }
+
+    .dit2 {
+        .dith {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            .list {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                width: 23%;
+                margin: 0 30px;
+                height: 244px;
+                border-bottom: none;
+                text-align: center;
+
+                .pics {
+                    img {
+                        width: 47px;
+                        height: 47px;
+
+                    }
+
+                    // img:nth-of-type(1) {
+                    //     display: block;
+                    // }
+
+                    // img:nth-of-type(2) {
+                    //     display: none;
+                    // }
+                }
+
+                span {
+                    font-size: 14px;
+                    color: #666;
+                }
+
+            }
+
+            .list:hover {
+                text-align: center;
+                color: #1F9EE3 !important;
+
+                .pics {
+                    img {
+                        transform: translateY(-10px);
+                        transition: all .5s;
+                    }
+
+                    // img:nth-of-type(1) {
+                    //     display: none;
+                    // }
+
+                    // img:nth-of-type(2) {
+                    //     margin: 0 auto;
+                    //     display: block;
+                    // }
+                    // }
+
+                }
+            }
+        }
+    }
+}
+
+.item3 {
+
+    background: url(https://www.tdin360.com/img/websiteBg.eb32a467.jpg);
+    background-size: cover;
+    display: flex;
+    height: 462px;
+    justify-content: center;
+    align-items: center;
+
+
+    p {
+        font-size: 35px;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+    }
+
+    span {
+        display: inline-block;
+        font-size: 14px;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+    }
+
+    .left {
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        width: 30%;
+        align-items: flex-start;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .item3right {
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        width: 40%;
+        align-items: flex-start;
+
+        p {
+            font-size: 25px;
+        }
+    }
+
+}
+
+.item4 {
+    background: url(https://www.tdin360.com/img/webSiteBg2.0f47f9b4.png);
+    background-size: cover;
+    display: flex;
+    height: 256px;
+    // justify-content: center;
+    margin-left: 10%;
+    align-items: center;
+
+    p {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    span {
+        display: inline-block;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .left {
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        width: 30%;
+        align-items: flex-start;
+
+        a {
+            display: inline-block;
+            width: 80px;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            font-size: 14px;
+            border: 1px solid #999;
+            color: #000;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}

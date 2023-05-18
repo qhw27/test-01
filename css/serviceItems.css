@@ -1,0 +1,240 @@
+header .hdbox .right li:nth-of-type(2) a {
+  color: #1F9EE3 !important;
+}
+.headpic {
+  position: relative;
+  height: 595px;
+  background: url(http://tdin360.oss-cn-hongkong.aliyuncs.com/resources/tdzh/image/aboutUsBg.png);
+}
+.headpic .pitem1 {
+  color: #FFFFFF;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  animation: imgs 1s ease-out;
+}
+.headpic .pitem1 p {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+.headpic .pitem1 span {
+  font-size: 14px;
+  display: inline-block;
+  line-height: 25px;
+  padding-bottom: 10px;
+  width: 200px;
+}
+.headpic .img {
+  animation: imgs 1s ease-out;
+  position: absolute;
+  top: 10%;
+  right: 0;
+  width: 700px;
+  height: 496px;
+  background-image: url(http://tdin360.oss-cn-hongkong.aliyuncs.com/resources/tdzh/image/aboutUsIMG.png);
+}
+@keyframes imgs {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+main .title {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 64px;
+}
+main ul {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .line {
+  width: 1px;
+  height: 100px;
+  background: radial-gradient(#24a1e4, #ffffff);
+}
+main .mlist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 170px;
+  margin: 0 30px;
+  height: 144px;
+  border-bottom: none;
+}
+main .mlist .pics img {
+  width: 47px;
+  height: 47px;
+}
+main .mlist .pics img:nth-of-type(1) {
+  display: block;
+}
+main .mlist .pics img:nth-of-type(2) {
+  display: none;
+}
+main .active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 170px;
+  margin: 0 30px;
+  height: 144px;
+  border-bottom: 2px solid #1F9EE3;
+}
+main .active .pics img {
+  width: 47px;
+  height: 47px;
+}
+main .active .pics img:nth-of-type(1) {
+  display: none;
+}
+main .active .pics img:nth-of-type(2) {
+  display: block;
+}
+main .mlist:hover {
+  text-align: center;
+  color: #1F9EE3 !important;
+}
+main .mlist:hover .pics {
+  transform: translateY(-10px);
+  transition: all 0.5s;
+}
+main .mlist:hover .pics img:nth-of-type(1) {
+  display: none;
+}
+main .mlist:hover .pics img:nth-of-type(2) {
+  margin: 0 auto;
+  display: block;
+}
+@keyframes zhuan {
+  0% {
+    opacity: 0;
+    transform: rotateX(180deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotateX(0deg);
+  }
+}
+main .min {
+  background-color: #f1f7fd;
+  height: 700px;
+  display: block;
+}
+main .min .bbox {
+  width: 90%;
+  margin: 0px auto;
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  animation: zhuan 1s;
+}
+main .min .bbox .img {
+  padding: 0 20px;
+}
+main .min .bbox .m1 {
+  width: 60%;
+  padding: 0 20px;
+}
+main .min .bbox .m1 .top {
+  display: flex;
+  align-items: center;
+}
+main .min .bbox .m1 .top span {
+  display: inline-block;
+  font-size: 20px;
+  padding-left: 20px;
+}
+main .min .bbox .m1 p {
+  padding-left: 40px;
+  border-left: 2px solid #1F9EE3;
+  margin-left: 20px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #666;
+}
+main .min2,
+main .min3,
+main .min4,
+main .min5,
+main .min6,
+main .min7 {
+  display: none;
+}
+main .word {
+  width: 78.5%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+}
+main #lbt {
+  width: 1490px;
+  height: 463px;
+  position: relative;
+  overflow: hidden;
+}
+main #lbt .bo {
+  margin: auto 0;
+  position: absolute;
+}
+main #lbt .bo .swiper3 {
+  width: 1490px;
+  height: 462px;
+  background-color: aqua;
+  --swiper-theme-color: #FFFFFF;
+  --swiper-navigation-color: #e9f1ea;
+  --swiper-navigation-size: 20px;
+}
+main #lbt .bo .swiper3 .swiper-pagination-bullet {
+  width: 35px;
+  height: 3px;
+  border-radius: 0px;
+}
+main #lbt .bo .swiper3 .swiperitem {
+  background: url(https://www.tdin360.com/img/websiteBg.eb32a467.jpg);
+  background-size: cover;
+  display: flex;
+  height: 462px;
+  justify-content: center;
+}
+main #lbt .bo .swiper3 .swiperitem p {
+  font-size: 35px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+main #lbt .bo .swiper3 .swiperitem span {
+  display: inline-block;
+  font-size: 14px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+main #lbt .bo .swiper3 .swiperitem .left {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  width: 30%;
+  align-items: flex-start;
+}
+main #lbt .bo .swiper3 .swiperitem .left img {
+  width: 100%;
+}
+main #lbt .bo .swiper3 .swiperitem .right {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  width: 40%;
+  align-items: flex-start;
+}
+main #lbt .bo .swiper3 .swiperitem .right p {
+  font-size: 25px;
+}

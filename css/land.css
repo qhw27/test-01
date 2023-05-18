@@ -1,0 +1,249 @@
+header .hdbox .right li:nth-of-type(4) a {
+  color: #1F9EE3 !important;
+}
+.headpic {
+  overflow: hidden;
+  position: relative;
+  height: 595px;
+  background: url(http://tdin360.oss-cn-hongkong.aliyuncs.com/resources/tdzh/image/aboutUsBg.png);
+}
+.headpic .pitem1 {
+  color: #FFFFFF;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  animation: imgs 1s ease-out;
+}
+.headpic .pitem1 p {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+.headpic .pitem1 span {
+  font-size: 14px;
+  display: inline-block;
+  line-height: 25px;
+  padding-bottom: 10px;
+  width: 200px;
+}
+.headpic .img {
+  animation: imgs 1s ease-out;
+  position: absolute;
+  top: 10%;
+  right: 0;
+  width: 712px;
+  height: 500px;
+  background: url(http://tdin360.oss-cn-hongkong.aliyuncs.com/resources/tdzh/image/aboutUsIMG.png) no-repeat;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+main .item1 .title {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 64px;
+}
+main .item1 .ittop {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .item1 .line {
+  width: 1px;
+  height: 100px;
+  background: radial-gradient(#24a1e4, #ffffff);
+}
+main .item1 .mlist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 170px;
+  margin: 0 30px;
+  height: 144px;
+  border-bottom: none;
+}
+main .item1 .mlist .pics img {
+  width: 47px;
+  height: 47px;
+}
+main .item1 .mlist .pics img:nth-of-type(1) {
+  display: block;
+}
+main .item1 .mlist .pics img:nth-of-type(2) {
+  display: none;
+}
+main .item1 .active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 170px;
+  margin: 0 30px;
+  height: 144px;
+  border-bottom: 2px solid #1F9EE3;
+}
+main .item1 .active .pics img {
+  width: 47px;
+  height: 47px;
+}
+main .item1 .active .pics img:nth-of-type(1) {
+  display: none;
+}
+main .item1 .active .pics img:nth-of-type(2) {
+  display: block;
+}
+main .item1 .mlist:hover {
+  text-align: center;
+  color: #1F9EE3 !important;
+}
+main .item1 .mlist:hover .pics {
+  transform: translateY(-10px);
+  transition: all 0.5s;
+}
+main .item1 .mlist:hover .pics img:nth-of-type(1) {
+  display: none;
+}
+main .item1 .mlist:hover .pics img:nth-of-type(2) {
+  margin: 0 auto;
+  display: block;
+}
+@keyframes zhuan {
+  0% {
+    opacity: 0;
+    transform: rotateX(180deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotateX(0deg);
+  }
+}
+main .item1 .min {
+  background-color: #f1f7fd;
+  height: 80px;
+  display: block;
+}
+main .item1 .min .bbox {
+  width: 50%;
+  display: flex;
+  animation: zhuan 1s;
+  height: 80px;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 200px;
+}
+main .item1 .min .bbox p {
+  display: inline-block;
+  font-size: 14px;
+}
+main .item1 .min2,
+main .item1 .min3,
+main .item1 .min4,
+main .item1 .min5 {
+  display: none;
+}
+main .item2 {
+  width: 100%;
+  height: 485px;
+  padding-top: 100px;
+  background-color: #F8FBFE;
+  display: flex;
+  justify-content: space-around;
+}
+main .item2 .left {
+  width: 40%;
+  margin-left: 10%;
+  float: left;
+}
+main .item2 .left p {
+  font-size: 28px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+main .item2 .left span {
+  margin-left: 20px;
+  font-size: 14px;
+}
+main .item2 .left .it2pic {
+  margin-right: 5%;
+  position: relative;
+  margin: 30px 0 0 100px;
+  width: 400px;
+  height: 400px;
+  text-align: right;
+  background: url(https://www.tdin360.com/img/LandBg1.5a33e3f5.png) no-repeat 0px 0px;
+  background-size: 400px;
+}
+main .item2 .left .it2pic img {
+  width: 129px;
+  position: absolute;
+  top: 0px;
+  right: 60px;
+  transition: all 0.3s;
+}
+main .item2 .left .it2pic:hover img {
+  transform: translate(-20px, 5px);
+}
+main .item2 .right {
+  float: left;
+  margin-right: 10%;
+}
+main .item2 .right p {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+main .item2 .right span {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 30px;
+  width: 600px;
+}
+main .item3 {
+  width: 100%;
+  height: 624px;
+  min-width: 1200px;
+  background: url(https://www.tdin360.com/img/b1.f29e9bb4.png);
+}
+main .item4 {
+  display: flex;
+  height: 462px;
+  justify-content: center;
+}
+main .item4 p {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+main .item4 span {
+  display: inline-block;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+main .item4 .left {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  align-items: flex-start;
+}
+main .item4 .left img {
+  width: 100%;
+}
+main .item4 .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  align-items: flex-start;
+}
+main .item4 .right li {
+  margin-bottom: 40px;
+}
+main .item4 .right p {
+  font-size: 25px;
+}
+main .item4 .right span {
+  line-height: 25px;
+}

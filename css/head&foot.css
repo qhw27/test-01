@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+@keyframes imgs {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+header {
+  width: 100%;
+}
+header .ybot {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+header .ybot div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+header .ybot div:nth-of-type(1) {
+  position: relative;
+  line-height: 49px;
+  width: 192px;
+  height: 50px;
+  background: linear-gradient(135deg, #1f9ee3, #6fc);
+  border-radius: 6px 0 0 0;
+}
+header .ybot div:nth-of-type(1) span {
+  margin: 0 0 0 6px;
+  font-size: 14px;
+  color: #fff;
+}
+header .ybot div:nth-of-type(1) img {
+  padding: 5px 0 0 0;
+  width: 21px;
+  height: 21px;
+}
+header .ybot div:nth-of-type(1) .comm {
+  opacity: 0;
+  position: absolute;
+  top: -220px;
+  height: 210px;
+  background-color: #f8f8f8;
+  width: 192px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px #999;
+}
+header .ybot div:nth-of-type(1) .comm li {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+header .ybot div:nth-of-type(1) .comm li img {
+  width: 28px;
+  height: 32px;
+  margin-right: 5px;
+}
+header .ybot div:nth-of-type(1) .comm li p span {
+  margin: 0 0 0 6px;
+  color: #333;
+}
+header .ybot div:nth-of-type(1) .comm li p span:nth-of-type(1) {
+  display: block;
+  height: 18px;
+  font-size: 14px;
+}
+header .ybot div:nth-of-type(1) .comm li p span:nth-of-type(2) {
+  display: inline-block;
+  font-size: 12px;
+}
+header .ybot div:nth-of-type(1) .comm li:hover span {
+  color: #1F9EE3;
+}
+header .ybot div:nth-of-type(1) .comm .dow {
+  position: absolute;
+  left: 48%;
+  bottom: -11px;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 15px solid #fff;
+}
+header .ybot div:nth-of-type(1):hover .comm {
+  opacity: 1;
+}
+header .ybot div:nth-of-type(2) {
+  position: relative;
+  width: 50px;
+  height: 49px;
+  border: 1px solid #999;
+  background-color: #e9f1ea;
+}
+header .ybot div:nth-of-type(2) img {
+  position: absolute;
+  top: 0px;
+  left: 17px;
+  transform: rotate(90deg);
+}
+header .ybot div:nth-of-type(2) p {
+  font-size: 14px;
+  color: #333;
+  margin: 10px 0 0 0;
+}
+header .ybot div:nth-of-type(2):hover {
+  border: 1px solid #333;
+}
+header .hdbox {
+  width: 100%;
+  height: 65px;
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+header .hdbox .left {
+  float: left;
+  margin-left: 10%;
+}
+header .hdbox .left img {
+  margin-top: 10px;
+}
+header .hdbox .right {
+  font-size: 16px;
+  float: right;
+  line-height: 65px;
+  margin-right: 10%;
+  display: flex;
+}
+header .hdbox .right li {
+  width: 97px;
+  text-align: right;
+}
+header .hdbox .right li a {
+  color: aliceblue;
+}
+header .hdbox .right li a:hover {
+  color: #1F9EE3 !important;
+}
+.mover img {
+  transition: 0.5s;
+}
+.mover:hover img {
+  transform: translateX(10px);
+}
+footer {
+  box-sizing: border-box;
+  background: url(../img/icon-15.png) no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+footer .top {
+  padding: 0 5%;
+  padding-top: 60px;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+footer .top p {
+  font-size: 20px;
+  height: 50px;
+}
+footer .top p img {
+  margin-left: 15px;
+}
+footer .top .fit {
+  width: 15%;
+}
+footer .top .fit ul li {
+  line-height: 40px;
+  font-size: 15px;
+}
+footer .top .fit ul li a {
+  color: #c8c8c8;
+}
+footer .top .fit ul li a:hover {
+  color: #fff;
+}
+footer .top .fitem1 span {
+  font-size: 12px;
+}
+footer .top .fitem5 img {
+  width: 180px;
+}
+footer .bottom {
+  text-align: center;
+  font-size: 14px;
+  height: 55px;
+}
+footer .bottom a {
+  color: #c8c8c8;
+}
+footer .bottom a:hover {
+  color: #1F9EE3;
+}
